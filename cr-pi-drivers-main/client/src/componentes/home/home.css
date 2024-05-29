@@ -1,0 +1,49 @@
+.Home {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Texto blanco */
+    font-family: 'Arial', sans-serif; /* Fuente sans-serif */
+    padding: 20px; /* Espaciado interno */
+    background-image: url('../../../public/DPkZATWXUAAnsCz.jpg');
+
+  }
+  
+  .Home h1 {
+    font-size: 36px; /* Tamaño grande para el título */
+    text-align: center; /* Centrar el texto */
+  }
+  
+  .Home .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Diseño de cuadrícula adaptable */
+    gap: 20px; /* Espacio entre las cartas */
+  }
+  
+  /* Estilo para las cartas */
+  .card {
+    background-color: #444; /* Color de fondo para las cartas */
+    color: #fff; /* Texto blanco */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Escalar la tarjeta al hacer hover */
+    box-shadow: 0px 4px 10px rgba(128, 9, 9, 0.8); /* Sombra al hacer hover */
+  }
+  
+  .card h2 {
+    font-size: 24px; /* Tamaño del título */
+    margin-bottom: 10px; /* Espaciado inferior */
+  }
+  
+  .card p {
+    font-size: 16px; /* Tamaño del texto */
+  }
+  
+  .card img {
+    width: 100%; /* Ancho completo para la imagen */
+    height: auto; /* Altura automática */
+    border-radius: 5px; /* Bordes redondeados para la imagen */
+  }
+  

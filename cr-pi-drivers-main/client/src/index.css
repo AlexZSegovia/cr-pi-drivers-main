@@ -1,0 +1,54 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  background-color: #00000000;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  margin-top: 60px; /* Ajusta el margen superior para compensar el espacio ocupado por la barra */
+  background-image: url('../../../public/lenovo-formula-1_lockup-scaled.jpg');
+}
+
+a {
+  font-weight: 500;
+  color: #fdfdfd00;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #e1e1e600;
+}
+h2{
+  text-align: center;
+  border-top: 2px solid #333;
+  font-size: 24px;
+  border-bottom: 2px solid #333;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #fcfeff00;
+    background-color: #ffffff00;
+  }
+  a:hover {
+    color: #df5515da;
+  }
+  button {
+    background-color: #da6f0bc5;
+  }
+}

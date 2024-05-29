@@ -1,0 +1,37 @@
+/* landingPage.css */
+.landing-page {
+    background-image: url('../../../public/logo-F1.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .description {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .button-link {
+    text-decoration: none;
+    color: white;
+    background-color: #f1356d00;
+    padding: 20px 20px;
+    border-radius: 5px;
+  }
+  
+  .button-link:hover {
+    background-color: #d6336c00;
+  }
+  

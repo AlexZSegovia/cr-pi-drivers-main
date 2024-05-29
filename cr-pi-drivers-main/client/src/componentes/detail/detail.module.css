@@ -1,0 +1,49 @@
+.detailcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white; /* Cambia el color del texto a blanco */
+  background-color: rgba(128, 128, 128, 0.452);
+  padding: 25px;
+  border-radius: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  -webkit-text-stroke: none; /* Elimina el contorno de las letras */
+  background-image: url('../../../public/lenovo-formula-1_lockup-scaled.jpg');
+
+}
+
+  
+  .detailcontent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .detailtext {
+    flex: 1;
+    text-align: left;
+    margin:10px 0;
+    margin-bottom: 10px;
+  }
+  
+  .detailtext h1 {
+    font-size: 26px; /* Aumentar el tamaño de fuente en 2 píxeles */
+    margin: 10px 0;
+    padding-bottom: 10px;
+  }
+  
+  .detailimage {
+    flex: 1;
+    text-align: right;
+    
+  }
+  
+  .detailimage img {
+    width: 300px; /* Aumenta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 50%;
+    margin: 10px 0;
+  }
+  

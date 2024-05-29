@@ -1,0 +1,5 @@
+.container {
+  display: flex;
+  justify-content:baseline; /* Distribuye con espacio igual entre las cartas */
+  flex-wrap: wrap; /* Permite que las cartas se muevan a la siguiente fila si es necesario */
+}

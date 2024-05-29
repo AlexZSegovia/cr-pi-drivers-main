@@ -1,0 +1,64 @@
+/* navbar.css */
+
+
+  .navBar {
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: calc(100% - 8px); /* Resta 8px de los márgenes */
+
+    background-color: #333;
+    width: 98.5%;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 9px;
+    z-index: 1000;
+    right: 4px; /* Ajusta según sea necesario */
+    left: 4px;
+  }
+  
+  
+
+
+.logo {
+  height: 40px; /* Altura del logo */
+}
+
+.searchBar {
+  flex: 1; /* Toma el espacio restante */
+  margin: 0 20px; /* Margen derecho e izquierdo */
+}
+
+.searchInput {
+  width: 100%; /* Ancho completo */
+  padding: 8px 12px; /* Espaciado interno */
+  border: none; /* Sin borde */
+  border-radius: 20px; /* Borde redondeado */
+  background-color: #555; /* Color de fondo */
+  color: white; /* Color del texto */
+}
+
+.searchInput::placeholder {
+  color: #ccc; /* Color del texto de marcador de posición */
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  margin-left: 20px; /* Margen izquierdo */
+  padding: 8px 16px; /* Espaciado interno */
+  background-color: #ff6600; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Sin borde */
+  border-radius: 20px; /* Borde redondeado */
+  cursor: pointer; /* Cursor al pasar el ratón */
+  transition: background-color 0.3s; /* Transición de color al pasar el cursor */
+}
+
+.button:hover {
+  background-color: #e55; /* Color de fondo al pasar el cursor */
+}
